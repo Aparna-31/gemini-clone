@@ -17,15 +17,15 @@ const Mainbar = () => {
             </div>
             <div className="cards">
                 <div className="card">
-                    <p>Suggest places to visit</p>
+                    <p>Suggest places to visit in Kashmir</p>
                     <img src={assets.compass_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Explain about Blockchain</p>
+                    <p>Explain about Blockchain,smart contracts,IPFS</p>
                     <img src={assets.bulb_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>AI Model Training Dataset</p>
+                    <p>AI Model Training Dataset,Dtaset for training model for API Documentation</p>
                     <img src={assets.code_icon} alt="" />
                 </div>
                 <div className="card">
@@ -33,6 +33,19 @@ const Mainbar = () => {
                     <img src={assets.message_icon} alt="" />
                 </div>  
             </div>
+            <div className="main_bottom">
+                <div className="search_box">
+                    <input type="text" placeholder="Enter a prompt here"/>
+                    
+                    <div>
+                        <img src={assets.gallery_icon} alt="" />
+                        <img src={assets.mic_icon} alt="" />
+                        <img src={assets.send_icon} alt="" />
+                    </div>
+                </div>
+                <p className="bottom_text">Powered by Gemini</p>
+
+            </div>                
 
         </div>
     </div>
