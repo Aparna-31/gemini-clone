@@ -22,15 +22,15 @@ const Mainbar = () => {
                 </div>
                 <div className="card">
                     <p>Explain about Blockchain</p>
-                    <img src={assets.compass_icon} alt="" />
+                    <img src={assets.bulb_icon} alt="" />
                 </div>
                 <div className="card">
                     <p>AI Model Training Dataset</p>
-                    <img src={assets.compass_icon} alt="" />
+                    <img src={assets.code_icon} alt="" />
                 </div>
                 <div className="card">
                     <p>IEEE Citation Formating</p>
-                    <img src={assets.compass_icon} alt="" />
+                    <img src={assets.message_icon} alt="" />
                 </div>  
             </div>
 
