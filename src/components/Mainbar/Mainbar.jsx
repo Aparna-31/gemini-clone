@@ -33,8 +33,8 @@ const Mainbar = () => {
                     <img src={assets.message_icon} alt="" />
                 </div>  
             </div>
-            <div className="main_bottom">
-                <div className="search_box">
+            <div className="main-bottom">
+                <div className="search-box">
                     <input type="text" placeholder="Enter a prompt here"/>
                     
                     <div>
@@ -43,7 +43,7 @@ const Mainbar = () => {
                         <img src={assets.send_icon} alt="" />
                     </div>
                 </div>
-                <p className="bottom_text">Powered by Gemini</p>
+                <p className="bottom-text">Powered by Gemini</p>
 
             </div>                
 
